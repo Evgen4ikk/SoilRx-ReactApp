@@ -1,0 +1,112 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended",
+        "plugin:eslint-plugin/recommended",
+        "airbnb-base",
+        "airbnb-typescript",
+        "airbnb-typescript",
+        "plugin:storybook/recommended",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "filenames-simple",
+        "unused-imports",
+        "import",
+        "modules-newlines",
+        "@typescript-eslint"
+    ],
+    "env": {
+        "node": true
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["src"],
+                "extensions": [".js", ".jsx", ".ts", ".d.ts", ".tsx"]
+            },
+            "typescript": {
+                "project": "./tsconfig.json"
+            },
+            "alias": {
+                "map": [
+                    ["@", "./src"],
+                    ["@app", "./src/app"],
+                    ["@features", "./src/features"],
+                    ["@entities", "./src/entities"],
+                    ["@ui", "./src/shared/ui"],
+                    ["@lib", "./src/shared/lib"]
+                ],
+                "extensions": [".js", ".jsx", ".ts", ".d.ts", ".tsx"]
+            }
+        }
+    },
+    "rules": {
+        "unused-imports/no-unused-imports": "error",
+        "no-restricted-globals": "off",
+        "react/jsx-filename-extension": [0],
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "comma-dangle": ["error", "always-multiline"],
+        "indent": ["error", 4],
+        "brace-style": "error",
+        "quotes": [
+            "error",
+            "single",
+            {
+                "avoidEscape": true
+            }
+        ],
+        "object-property-newline": "error",
+        "object-curly-spacing": ["error", "always"],
+        "modules-newlines/import-declaration-newline": "error",
+        "modules-newlines/export-declaration-newline": "error",
+        "object-curly-newline": ["error"],
+        "import/order": [
+            "error",
+            {
+                "alphabetize": {
+                    "order": "asc",
+                    "caseInsensitive": true
+                },
+                "newlines-between": "never",
+                "pathGroupsExcludedImportTypes": ["builtin"],
+                "groups": ["builtin", "external", "internal"]
+            }
+        ],
+        "@typescript-eslint/consistent-type-imports": [
+            "error",
+            {
+                "fixStyle": "inline-type-imports"
+            }
+        ],
+        "import/prefer-default-export": "off",
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": "off",
+        "import/no-extraneous-dependencies": "off",
+        "prefer-destructuring": "off",
+        "linebreak-style": ["error", "windows"],
+        "complexity": ["error", 10],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "": "never",
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ]
+    },
+    "ignorePatterns": [
+        "dist",
+        "node_modules",
+        ".eslintrc.cjs",
+        "vite.config.ts"
+    ]
+}
