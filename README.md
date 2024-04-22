@@ -156,6 +156,9 @@
 - Prettier (AirBnb)
 - Eslint (AirBnb)
 
+### Ссылка на сайт
+Ссылка на сайт - [SoilRx](https://soilrx.abdrashitov-academy.ru/)
+
 ## Скрипты для запуска и тестирования
 - ```npm run dev``` запуск в режиме разработчика
 - ```npm run build``` cборка приложения
