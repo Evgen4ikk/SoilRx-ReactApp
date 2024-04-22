@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction } from 'react'
-import FileIcon from '@app/icons/fileIcon.svg?react'
-import RemoveFile from '@app/icons/removeFile.svg?react'
+import FileIcon from '@icons/fileIcon.svg?react'
+import RemoveFile from '@icons/removeFile.svg?react'
 import Button from '@ui/Button'
 import { ESpacing } from '@ui/Enums/Enums'
 import Flex from '@ui/Flex'

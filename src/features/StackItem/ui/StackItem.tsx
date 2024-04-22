@@ -1,5 +1,5 @@
-import DeleteIcon from '@app/icons/delete.svg?react'
 import { useDeletePlotMutation, useGetCropsQuery } from '@entities/plot'
+import DeleteIcon from '@icons/delete.svg?react'
 import { ESpacing } from '@ui/Enums/Enums'
 import Flex from '@ui/Flex'
 import Paragraph from '@ui/Paragraph'

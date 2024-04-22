@@ -1,5 +1,5 @@
 import { FC, useState } from 'react'
-import UploadIcon from '@app/icons/upload.svg?react'
+import UploadIcon from '@icons/upload.svg?react'
 import { type Error, type TVoidFn } from '@customTypes/common'
 import UploadItem from '@features/UploadItem'
 import { cn } from '@lib/dom/classnames'

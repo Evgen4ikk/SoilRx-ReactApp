@@ -1,5 +1,5 @@
 import { FC, useState } from 'react'
-import PlusIcon from '@app/icons/plus.svg?react'
+import PlusIcon from '@icons/plus.svg?react'
 import { useGetFertileQuery } from '@entities/recomendation'
 import AddAnalysisModal from '@features/AddAnalysisModal'
 import { cn } from '@lib/dom/classnames'

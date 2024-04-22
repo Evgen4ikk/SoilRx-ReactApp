@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
-import DeleteIcon from '@app/icons/delete.svg?react'
-import EditIcon from '@app/icons/edit.svg?react'
+import DeleteIcon from '@icons/delete.svg?react'
+import EditIcon from '@icons/edit.svg?react'
 import { useDeletePlotMutation } from '@entities/plot'
 import { PlotData } from '@entities/plot/model/types'
 import ConfirmRemoveForm from '@features/ConfirmRemoveForm'

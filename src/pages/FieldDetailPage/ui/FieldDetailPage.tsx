@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import BackIcon from '@app/icons/back.svg?react'
+import BackIcon from '@icons/back.svg?react'
 import { useGetFieldByIdQuery } from '@entities/field'
 import { useGetPlotsQuery } from '@entities/plot'
 import { FieldDetailCard } from '@features/FieldDetailCard'

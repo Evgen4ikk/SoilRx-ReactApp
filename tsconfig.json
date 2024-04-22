@@ -16,6 +16,7 @@
             "@entities/*": ["src/entities/*"],
             "@shared/*": ["src/shared/*"],
             "@ui/*": ["src/shared/ui/*"],
+            "@icons/*": ["src/shared/icons/*"],
             "@lib/*": ["src/shared/lib/*"],
             "@hooks/*": ["src/shared/hooks/*"],
             "@model/*": ["src/shared/model/*"],

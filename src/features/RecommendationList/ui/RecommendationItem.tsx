@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
-import DownIcon from '@app/icons/down.svg?react'
-import DownloadIcon from '@app/icons/download.svg?react'
+import DownIcon from '@icons/down.svg?react'
+import DownloadIcon from '@icons/download.svg?react'
 import { GradeField } from '@features/PlotList'
 import { ESpacing } from '@ui/Enums/Enums'
 import Flex from '@ui/Flex'

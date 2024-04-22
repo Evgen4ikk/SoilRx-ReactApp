@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import OopsIcon from '@app/icons/oops.svg?react'
+import OopsIcon from '@icons/oops.svg?react'
 import { cn } from '@lib/dom/classnames'
 import { routeMap } from '@model/api'
 import Flex from '@ui/Flex'

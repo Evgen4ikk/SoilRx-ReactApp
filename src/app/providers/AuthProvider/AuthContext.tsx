@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react'
+import { accessTokenKey } from '@model/localStorageKeys'
+import { TokenStorage } from '@model/tokenStorage'
 import { setRefreshAccessTokenCallback } from '@shared/api/query'
-import { accessTokenKey } from '@shared/model/localStorageKeys'
-import { TokenStorage } from '@shared/model/tokenStorage'
 
 interface AuthContextType {
     accessToken: string | null

@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { cn } from '@lib/dom/classnames.ts'
+import { cn } from '@lib/dom/classnames'
 import { Table as AntTable, type TableProps } from 'antd'
 import { cva, VariantProps } from 'class-variance-authority'
 

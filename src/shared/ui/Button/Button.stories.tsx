@@ -1,6 +1,6 @@
-import BackIcon from '@app/icons/back.svg?react'
-import GearIcon from '@app/icons/gear.svg?react'
-import PlusIcon from '@app/icons/plus.svg?react'
+import BackIcon from '@icons/back.svg?react'
+import GearIcon from '@icons/gear.svg?react'
+import PlusIcon from '@icons/plus.svg?react'
 import { type Meta, type StoryFn } from '@storybook/react'
 import Button from './Button'
 

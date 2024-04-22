@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import CloseIcon from '@app/icons/close.svg?react'
+import CloseIcon from '@icons/close.svg?react'
 import { RecommendationList } from '@features/RecommendationList'
 import Button from '@ui/Button'
 import { ESpacing } from '@ui/Enums/Enums'

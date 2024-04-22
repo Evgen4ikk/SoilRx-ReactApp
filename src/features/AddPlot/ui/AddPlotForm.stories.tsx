@@ -1,6 +1,6 @@
 import { type Meta, type StoryFn } from '@storybook/react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { AddPlotForm } from '..'
+import { AddPlotForm } from '../'
 
 export default {
     title: 'features/PlotForm',

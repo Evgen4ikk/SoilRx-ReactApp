@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
-import DownloadIcon from '@app/icons/download.svg?react'
-import HistoryIcon from '@app/icons/history.svg?react'
+import DownloadIcon from '@icons/download.svg?react'
+import HistoryIcon from '@icons/history.svg?react'
 import { useGeneratePdfQuery } from '@entities/recomendation/api/api'
 import { CultureRecommendation } from '@features/CultureRecommendation'
 import { SoilRecommendation } from '@features/SoilRecommendation'

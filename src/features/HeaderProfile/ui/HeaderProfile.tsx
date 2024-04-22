@@ -1,5 +1,5 @@
-import LogoutIcon from '@app/icons/logout.svg?react'
-import PersonIcon from '@app/icons/person.svg?react'
+import LogoutIcon from '@icons/logout.svg?react'
+import PersonIcon from '@icons/person.svg?react'
 import { UserObject } from '@entities/Auth/login'
 import { useLogoutMutation } from '@entities/Auth/login/api/api'
 import { routeMap } from '@model/api'

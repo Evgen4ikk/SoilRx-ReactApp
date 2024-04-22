@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import InfoIcon from '@app/icons/info.svg?react'
+import InfoIcon from '@icons/info.svg?react'
 import { useGetRecommendQuery } from '@entities/recomendation'
 import { ESpacing } from '@ui/Enums/Enums'
 import Flex from '@ui/Flex'

@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import SelectIcon from '@app/icons/selectIcon.svg?react'
+import SelectIcon from '@icons/selectIcon.svg?react'
 import { type Error } from '@customTypes/common'
 import { useGetCropsQuery } from '@entities/plot/api/api'
 import { ESpacing } from '@ui/Enums/Enums'

@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
-import DeleteIcon from '@app/icons/delete.svg?react'
-import EditIcon from '@app/icons/edit.svg?react'
+import DeleteIcon from '@icons/delete.svg?react'
+import EditIcon from '@icons/edit.svg?react'
 import { useDeleteFieldMutation } from '@entities/field'
 import ConfirmRemoveForm from '@features/ConfirmRemoveForm'
 import { routeMap } from '@model/api'

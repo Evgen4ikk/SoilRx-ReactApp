@@ -1,5 +1,4 @@
 import { FC, useEffect, useState } from 'react'
-import SelectIcon from '@app/icons/selectIcon.svg?react'
 import { useGetFieldByIdQuery } from '@entities/field'
 import {
     AddPlotFormData,
@@ -15,6 +14,7 @@ import ConfirmRemoveForm from '@features/ConfirmRemoveForm'
 import { CultureSelect } from '@features/CultureSelect'
 import UploadField from '@features/UploadField'
 import { zodResolver } from '@hookform/resolvers/zod'
+import SelectIcon from '@icons/selectIcon.svg?react'
 import { Message } from '@lib/ui/message'
 import { routeMap } from '@model/api'
 import Button from '@ui/Button'
