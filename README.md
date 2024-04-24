@@ -1,3 +1,6 @@
+# Ссылка на сайт
+Ссылка на сайт - [SoilRx](https://soilrx.redcat.one/)
+
 # Архитектура проекта
 
 Для разработки функционала следует придерживаться архитектуре [Feature-Sliced Design](https://feature-sliced.design/)
@@ -155,9 +158,6 @@
 ### CI/CD библиотеки
 - Prettier (AirBnb)
 - Eslint (AirBnb)
-
-### Ссылка на сайт
-Ссылка на сайт - [SoilRx](https://soilrx.abdrashitov-academy.ru/)
 
 ## Скрипты для запуска и тестирования
 - ```npm run dev``` запуск в режиме разработчика
